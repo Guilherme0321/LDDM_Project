@@ -5,7 +5,7 @@ import 'Map/Mapa.dart';
 import 'Login/LoginPage.dart';
 import 'News/noticias.dart';
 import 'Home/HomePage.dart';
-import '../gpt/chatScreen.dart';
+import 'gpt/chatScreen.dart';
 
 void main() async {
   await dotenv.load(fileName: 'assets/.env');
